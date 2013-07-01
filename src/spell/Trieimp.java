@@ -4,6 +4,11 @@ import spell.Trie.Node;
 
 
 public class Trieimp implements Trie {
+	/**
+	 * Adds the specified word to the trie (if necessary) and increments the word's frequency count
+	 * 
+	 * @param word The word being added to the trie
+	 */
 
 public void add(String word)
 {}
