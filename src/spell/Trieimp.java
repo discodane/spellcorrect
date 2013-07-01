@@ -70,6 +70,8 @@ public void add(String word)
 	/**
 	 * Your trie node class should implement the Trie.Node interface
 	 */
+	public Node root=(Node) new nodeimp();
+	
 	public interface Node {
 	
 		/**

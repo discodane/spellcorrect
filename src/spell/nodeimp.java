@@ -5,7 +5,7 @@ public class nodeimp implements Trie.Node {
 	@Override
 	public int getValue() {
 		// TODO Auto-generated method stub
-		return 0;
+		return count;
 	}
 	int count;
 	String value;
