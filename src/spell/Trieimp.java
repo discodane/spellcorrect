@@ -1,8 +1,5 @@
 package spell;
 
-import spell.Trie.Node;
-
-
 public class Trieimp implements Trie {
 	/**
 	 * Adds the specified word to the trie (if necessary) and increments the word's frequency count
@@ -21,9 +18,10 @@ public void add(String word)
 	 * @return A reference to the trie node that represents the word,
 	 * 			or null if the word is not in the trie
 	 */
-	public Node find(String word)
+	public spell.Trie.Node find(String word)
 	{
-		return Node j;
+		spell.Trie.Node j= new nodeimp();
+		return j;
 	}
 	
 	/**
