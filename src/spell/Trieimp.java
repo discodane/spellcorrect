@@ -1,6 +1,18 @@
 package spell;
 
+import java.util.Scanner;
+
 public class Trieimp implements Trie {
+	public Trieimp(Scanner di) {
+		while(di.hasNext())
+		{
+			String current=di.next();
+			current.toLowerCase();
+			add(current);
+		}
+		// TODO Auto-generated constructor stub
+	}
+
 	/**
 	 * Adds the specified word to the trie (if necessary) and increments the word's frequency count
 	 * 
@@ -8,7 +20,9 @@ public class Trieimp implements Trie {
 	 */
 
 public void add(String word)
-{}
+{
+	
+}
 	
 	/**
 	 * Searches the trie for the specified word
